@@ -1,0 +1,36 @@
+.sidebar {
+  border-right: 1px solid var(--twitter-background);
+  flex: 0.3;
+  min-width: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebar__twitterIcon {
+  color: var(--twitter-color);
+  font-size: 30px;
+  margin: 10px;
+}
+.sidebar__tweet.material-button {
+  background: var(--twitter-color);
+  color: white;
+  font-weight: bold;
+  text-transform: none;
+  border-radius: 30px;
+  height: 35px;
+  margin-top: 20px;
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 {
+  font-size: 18px;
+}
+.material-icons.md-24 {
+  font-size: 24px;
+}
+.material-icons.md-30 {
+  font-size: 30px;
+}
+.material-icons.md-48 {
+  font-size: 48px;
+}

@@ -18,7 +18,7 @@ const Post = forwardRef(
     ref
   ) => {
     const onClickDelete = (id) => {
-      if(alert("Are you sure you want to delete this post?")){
+      if(window.confirm("Are you sure you want to delete this post?")){
         deleteDoc(doc(db, "posts", id));
       }
     }
